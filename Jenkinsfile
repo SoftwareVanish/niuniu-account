@@ -28,7 +28,7 @@ pipeline {
                     docker run -d \
                         --name ${CONTAINER_NAME} \
                         --network ${NETWORK} \
-                        -p 8081:8081 \
+                        -p 9527:9527 \
                         -e SPRING_PROFILES_ACTIVE=prod \
                         -e "SPRING_DATASOURCE_URL=jdbc:mysql://nn-mysql:3306/niuniu_account?useSSL=false&serverTimezone=Asia/Shanghai&characterEncoding=utf8mb4" \
                         -e SPRING_DATASOURCE_USERNAME=root \
