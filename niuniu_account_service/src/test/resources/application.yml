@@ -1,0 +1,30 @@
+# service 模块单元测试配置：连接测试库 niuniu_account_test
+# 数据库账号密码可通过环境变量覆盖：MYSQL_USERNAME / MYSQL_PASSWORD
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://129.204.55.125:3306/niuniu_account_test?useUnicode=true&characterEncoding=utf8&serverTimezone=Asia/Shanghai&useSSL=false&allowPublicKeyRetrieval=true
+    username: ${MYSQL_USERNAME:root}
+    password: ${MYSQL_PASSWORD:vanish}
+
+mybatis-plus:
+  global-config:
+    db-config:
+      logic-delete-field: status
+      logic-delete-value: 0
+      logic-not-delete-value: 1
+  configuration:
+    map-underscore-to-camel-case: true
+
+wechat:
+  appid: test-appid
+  secret: test-secret
+
+jwt:
+  secret: test-secret-key-0123456789abcdef0123456789abcdef
+  expire-hours: 72
+
+logging:
+  level:
+    root: WARN
+    com.vanish: INFO

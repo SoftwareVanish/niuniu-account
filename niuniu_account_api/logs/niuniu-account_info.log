@@ -1,0 +1,30 @@
+20:32:23.743 [main] INFO  c.v.c.UserControllerTest - [logStarting,54] - Starting UserControllerTest using Java 21.0.12 with PID 75119 (started by vanish in /Users/vanish/developer/workspace/niuniu-account/niuniu_account_api)
+20:32:23.744 [main] INFO  c.v.c.UserControllerTest - [logStartupProfileInfo,652] - No active profile set, falling back to 1 default profile: "default"
+20:32:25.259 [main] INFO  c.v.c.UserControllerTest - [logStarted,60] - Started UserControllerTest in 1.709 seconds (process running for 2.163)
+20:32:25.540 [main] INFO  c.v.c.CheckControllerTest - [logStarting,54] - Starting CheckControllerTest using Java 21.0.12 with PID 75119 (started by vanish in /Users/vanish/developer/workspace/niuniu-account/niuniu_account_api)
+20:32:25.540 [main] INFO  c.v.c.CheckControllerTest - [logStartupProfileInfo,652] - No active profile set, falling back to 1 default profile: "default"
+20:32:25.797 [main] INFO  c.v.c.CheckControllerTest - [logStarted,60] - Started CheckControllerTest in 0.275 seconds (process running for 2.701)
+20:32:25.831 [main] INFO  c.v.c.CategoryControllerTest - [logStarting,54] - Starting CategoryControllerTest using Java 21.0.12 with PID 75119 (started by vanish in /Users/vanish/developer/workspace/niuniu-account/niuniu_account_api)
+20:32:25.831 [main] INFO  c.v.c.CategoryControllerTest - [logStartupProfileInfo,652] - No active profile set, falling back to 1 default profile: "default"
+20:32:26.075 [main] INFO  c.v.c.CategoryControllerTest - [logStarted,60] - Started CategoryControllerTest in 0.259 seconds (process running for 2.98)
+20:32:26.160 [main] INFO  c.v.c.BillControllerTest - [logStarting,54] - Starting BillControllerTest using Java 21.0.12 with PID 75119 (started by vanish in /Users/vanish/developer/workspace/niuniu-account/niuniu_account_api)
+20:32:26.161 [main] INFO  c.v.c.BillControllerTest - [logStartupProfileInfo,652] - No active profile set, falling back to 1 default profile: "default"
+20:32:26.448 [main] INFO  c.v.c.BillControllerTest - [logStarted,60] - Started BillControllerTest in 0.321 seconds (process running for 3.353)
+20:32:26.736 [main] INFO  c.v.c.StatisticsControllerTest - [logStarting,54] - Starting StatisticsControllerTest using Java 21.0.12 with PID 75119 (started by vanish in /Users/vanish/developer/workspace/niuniu-account/niuniu_account_api)
+20:32:26.736 [main] INFO  c.v.c.StatisticsControllerTest - [logStartupProfileInfo,652] - No active profile set, falling back to 1 default profile: "default"
+20:32:27.111 [main] INFO  c.v.c.StatisticsControllerTest - [logStarted,60] - Started StatisticsControllerTest in 0.411 seconds (process running for 4.015)
+20:32:57.748 [main] INFO  c.v.c.UserControllerTest - [logStarting,54] - Starting UserControllerTest using Java 21.0.12 with PID 75157 (started by vanish in /Users/vanish/developer/workspace/niuniu-account/niuniu_account_api)
+20:32:57.749 [main] INFO  c.v.c.UserControllerTest - [logStartupProfileInfo,652] - No active profile set, falling back to 1 default profile: "default"
+20:32:59.347 [main] INFO  c.v.c.UserControllerTest - [logStarted,60] - Started UserControllerTest in 1.794 seconds (process running for 2.232)
+20:32:59.628 [main] INFO  c.v.c.CheckControllerTest - [logStarting,54] - Starting CheckControllerTest using Java 21.0.12 with PID 75157 (started by vanish in /Users/vanish/developer/workspace/niuniu-account/niuniu_account_api)
+20:32:59.628 [main] INFO  c.v.c.CheckControllerTest - [logStartupProfileInfo,652] - No active profile set, falling back to 1 default profile: "default"
+20:32:59.896 [main] INFO  c.v.c.CheckControllerTest - [logStarted,60] - Started CheckControllerTest in 0.289 seconds (process running for 2.782)
+20:32:59.927 [main] INFO  c.v.c.CategoryControllerTest - [logStarting,54] - Starting CategoryControllerTest using Java 21.0.12 with PID 75157 (started by vanish in /Users/vanish/developer/workspace/niuniu-account/niuniu_account_api)
+20:32:59.927 [main] INFO  c.v.c.CategoryControllerTest - [logStartupProfileInfo,652] - No active profile set, falling back to 1 default profile: "default"
+20:33:00.161 [main] INFO  c.v.c.CategoryControllerTest - [logStarted,60] - Started CategoryControllerTest in 0.248 seconds (process running for 3.047)
+20:33:00.212 [main] INFO  c.v.c.BillControllerTest - [logStarting,54] - Starting BillControllerTest using Java 21.0.12 with PID 75157 (started by vanish in /Users/vanish/developer/workspace/niuniu-account/niuniu_account_api)
+20:33:00.212 [main] INFO  c.v.c.BillControllerTest - [logStartupProfileInfo,652] - No active profile set, falling back to 1 default profile: "default"
+20:33:00.413 [main] INFO  c.v.c.BillControllerTest - [logStarted,60] - Started BillControllerTest in 0.218 seconds (process running for 3.299)
+20:33:00.495 [main] INFO  c.v.c.StatisticsControllerTest - [logStarting,54] - Starting StatisticsControllerTest using Java 21.0.12 with PID 75157 (started by vanish in /Users/vanish/developer/workspace/niuniu-account/niuniu_account_api)
+20:33:00.496 [main] INFO  c.v.c.StatisticsControllerTest - [logStartupProfileInfo,652] - No active profile set, falling back to 1 default profile: "default"
+20:33:00.697 [main] INFO  c.v.c.StatisticsControllerTest - [logStarted,60] - Started StatisticsControllerTest in 0.217 seconds (process running for 3.582)

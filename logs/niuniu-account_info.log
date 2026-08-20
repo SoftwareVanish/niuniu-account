@@ -1,0 +1,18 @@
+20:33:22.764 [main] INFO  c.v.NiuniuAccountApplication - [logStarting,54] - Starting NiuniuAccountApplication v1.0-SNAPSHOT using Java 21.0.12 with PID 75198 (/Users/vanish/developer/workspace/niuniu-account/niuniu_account_api/target/niuniu_account_api-1.0-SNAPSHOT.jar started by vanish in /Users/vanish/developer/workspace/niuniu-account)
+20:33:22.765 [main] INFO  c.v.NiuniuAccountApplication - [logStartupProfileInfo,652] - No active profile set, falling back to 1 default profile: "default"
+20:33:22.844 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,18] - HV000001: Hibernate Validator 9.0.1.Final
+20:33:23.370 [main] INFO  o.s.b.t.TomcatWebServer - [initialize,114] - Tomcat initialized with port 9527 (http)
+20:33:23.378 [main] INFO  o.a.c.h.Http11NioProtocol - [log,168] - Initializing ProtocolHandler ["http-nio-9527"]
+20:33:23.379 [main] INFO  o.a.c.c.StandardService - [log,168] - Starting service [Tomcat]
+20:33:23.379 [main] INFO  o.a.c.c.StandardEngine - [log,168] - Starting Servlet engine: [Apache Tomcat/11.0.22]
+20:33:23.391 [main] INFO  o.s.b.w.c.s.WebApplicationContextInitializer - [prepareWebApplicationContext,77] - Root WebApplicationContext: initialization completed in 603 ms
+20:33:23.932 [main] INFO  c.b.m.s.MybatisPlusApplicationContextAware - [setApplicationContext,43] - Register ApplicationContext instances org.springframework.boot.web.server.servlet.context.AnnotationConfigServletWebServerApplicationContext@660e9100
+20:33:24.007 [main] INFO  o.s.b.a.e.w.EndpointLinksResolver - [<init>,60] - Exposing 1 endpoint beneath base path '/actuator'
+20:33:24.030 [main] INFO  o.a.c.h.Http11NioProtocol - [log,168] - Starting ProtocolHandler ["http-nio-9527"]
+20:33:24.041 [main] INFO  o.s.b.t.TomcatWebServer - [start,240] - Tomcat started on port 9527 (http) with context path '/'
+20:33:24.046 [main] INFO  c.v.NiuniuAccountApplication - [logStarted,60] - Started NiuniuAccountApplication in 1.593 seconds (process running for 1.851)
+20:33:34.250 [http-nio-9527-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,168] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+20:33:34.251 [http-nio-9527-exec-1] INFO  o.s.w.s.DispatcherServlet - [initServletBean,523] - Initializing Servlet 'dispatcherServlet'
+20:33:34.252 [http-nio-9527-exec-1] INFO  o.s.w.s.DispatcherServlet - [initServletBean,545] - Completed initialization in 1 ms
+20:33:42.321 [SpringApplicationShutdownHook] INFO  o.s.b.t.GracefulShutdown - [shutDownGracefully,54] - Commencing graceful shutdown. Waiting for active requests to complete
+20:33:42.324 [tomcat-shutdown] INFO  o.s.b.t.GracefulShutdown - [doShutdown,76] - Graceful shutdown complete

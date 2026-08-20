@@ -1,0 +1,51 @@
+# ============================================================
+# niuniu-account 主配置（占位符待 vanish 填写）
+# ============================================================
+server:
+  port: 9527
+
+spring:
+  application:
+    name: niuniu-account
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    # TODO 请填写数据库连接（默认本机 3306）
+    url: jdbc:mysql://129.204.55.125:3306/niuniu_account?useUnicode=true&characterEncoding=utf8&serverTimezone=Asia/Shanghai&useSSL=false&allowPublicKeyRetrieval=true
+    # TODO 请填写数据库用户名
+    username: root
+    # TODO 请填写数据库密码
+    password: vanish
+
+# ============================================================
+# MyBatis-Plus 配置
+# ============================================================
+mybatis-plus:
+  global-config:
+    db-config:
+      logic-delete-field: status
+      logic-delete-value: 0
+      logic-not-delete-value: 1
+  configuration:
+    map-underscore-to-camel-case: true
+
+# ============================================================
+# 微信小程序配置（TODO 请填写）
+# ============================================================
+wechat:
+  appid: wx2a47579e4d2d3c5c
+  secret: 3f4d66aa4026daa360de9cb024828538
+
+# ============================================================
+# JWT 配置（TODO secret 请填写至少 32 位随机字符串）
+# ============================================================
+jwt:
+  secret: 8s7KdF2pR9zQvBnG5xJc4mWtA6bNhY0
+  expire-hours: 72
+
+# ============================================================
+# 日志配置
+# ============================================================
+logging:
+  level:
+    root: INFO
+    com.vanish: DEBUG

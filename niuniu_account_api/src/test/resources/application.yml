@@ -1,0 +1,30 @@
+# api 模块单元测试配置（控制器测试 mock 掉 Service，无需真实库连接即可启动，
+# 但保留测试库配置以防上下文初始化时触碰数据库）
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://129.204.55.125:3306/niuniu_account_test?useUnicode=true&characterEncoding=utf8&serverTimezone=Asia/Shanghai&useSSL=false&allowPublicKeyRetrieval=true
+    username: root
+    password: vanish
+
+mybatis-plus:
+  global-config:
+    db-config:
+      logic-delete-field: status
+      logic-delete-value: 0
+      logic-not-delete-value: 1
+  configuration:
+    map-underscore-to-camel-case: true
+
+wechat:
+  appid: test-appid
+  secret: test-secret
+
+jwt:
+  secret: test-secret-key-0123456789abcdef0123456789abcdef
+  expire-hours: 72
+
+logging:
+  level:
+    root: WARN
+    com.vanish: INFO

@@ -1,0 +1,22 @@
+20:32:25.441 [main] WARN  c.v.c.util.JwtUtil - [parseToken,63] - JwtUtil.parseToken | fail | error:Malformed protected header JSON: Unable to deserialize: Unexpected character ('�' (code 65533 / 0xfffd)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false')
+ at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); line: 1, column: 1]
+20:32:25.442 [main] WARN  c.v.e.GlobalExceptionHandler - [handleBusinessException,26] - GlobalExceptionHandler | business | code:401 | message:登录已失效，请重新登录
+20:32:25.507 [main] WARN  c.v.e.GlobalExceptionHandler - [handleMethodArgumentNotValid,39] - GlobalExceptionHandler | invalidArgument | message:昵称不能为空
+20:32:25.512 [main] WARN  c.v.e.GlobalExceptionHandler - [handleBusinessException,26] - GlobalExceptionHandler | business | code:401 | message:未登录或 token 缺失
+20:32:25.806 [main] WARN  c.v.e.GlobalExceptionHandler - [handleBusinessException,26] - GlobalExceptionHandler | business | code:401 | message:未登录或 token 缺失
+20:32:26.114 [main] WARN  c.v.e.GlobalExceptionHandler - [handleMethodArgumentNotValid,39] - GlobalExceptionHandler | invalidArgument | message:分类类型只能是 expense 或 income
+20:32:26.511 [main] WARN  c.v.e.GlobalExceptionHandler - [handleMethodArgumentNotValid,39] - GlobalExceptionHandler | invalidArgument | message:金额不能为空
+20:32:26.656 [main] WARN  c.v.e.GlobalExceptionHandler - [handleMethodArgumentNotValid,39] - GlobalExceptionHandler | invalidArgument | message:账单类型只能是 expense 或 income
+20:32:26.663 [main] WARN  c.v.e.GlobalExceptionHandler - [handleBusinessException,26] - GlobalExceptionHandler | business | code:400 | message:导入数据格式不正确
+20:32:27.130 [main] WARN  c.v.e.GlobalExceptionHandler - [handleBusinessException,26] - GlobalExceptionHandler | business | code:401 | message:未登录或 token 缺失
+20:32:59.524 [main] WARN  c.v.c.util.JwtUtil - [parseToken,63] - JwtUtil.parseToken | fail | error:Malformed protected header JSON: Unable to deserialize: Unexpected character ('�' (code 65533 / 0xfffd)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false')
+ at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); line: 1, column: 1]
+20:32:59.525 [main] WARN  c.v.e.GlobalExceptionHandler - [handleBusinessException,26] - GlobalExceptionHandler | business | code:401 | message:登录已失效，请重新登录
+20:32:59.590 [main] WARN  c.v.e.GlobalExceptionHandler - [handleMethodArgumentNotValid,39] - GlobalExceptionHandler | invalidArgument | message:昵称不能为空
+20:32:59.595 [main] WARN  c.v.e.GlobalExceptionHandler - [handleBusinessException,26] - GlobalExceptionHandler | business | code:401 | message:未登录或 token 缺失
+20:32:59.905 [main] WARN  c.v.e.GlobalExceptionHandler - [handleNoResourceFound,70] - GlobalExceptionHandler | notFound | uri:no/such/path
+20:33:00.190 [main] WARN  c.v.e.GlobalExceptionHandler - [handleMethodArgumentNotValid,39] - GlobalExceptionHandler | invalidArgument | message:分类类型只能是 expense 或 income
+20:33:00.450 [main] WARN  c.v.e.GlobalExceptionHandler - [handleMethodArgumentNotValid,39] - GlobalExceptionHandler | invalidArgument | message:金额不能为空
+20:33:00.466 [main] WARN  c.v.e.GlobalExceptionHandler - [handleMethodArgumentNotValid,39] - GlobalExceptionHandler | invalidArgument | message:账单类型只能是 expense 或 income
+20:33:00.469 [main] WARN  c.v.e.GlobalExceptionHandler - [handleBusinessException,26] - GlobalExceptionHandler | business | code:400 | message:导入数据格式不正确
+20:33:00.712 [main] WARN  c.v.e.GlobalExceptionHandler - [handleBusinessException,26] - GlobalExceptionHandler | business | code:401 | message:未登录或 token 缺失
