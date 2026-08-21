@@ -10,7 +10,7 @@ spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
     # TODO 请填写数据库连接（默认本机 3306）
-    url: jdbc:mysql://129.204.55.125:3306/niuniu_account?useUnicode=true&characterEncoding=utf8&serverTimezone=Asia/Shanghai&useSSL=false&allowPublicKeyRetrieval=true
+    url: jdbc:mysql://129.204.55.125:3306/niuniu_account?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai&useSSL=false&allowPublicKeyRetrieval=true
     # TODO 请填写数据库用户名
     username: root
     # TODO 请填写数据库密码

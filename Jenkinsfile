@@ -36,7 +36,7 @@ pipeline {
                         -v /data/java/niuniu-account/log:/app/logs \
                         -e LOG_PATH=/app/logs \
                         -e SPRING_PROFILES_ACTIVE=prod \
-                        -e "SPRING_DATASOURCE_URL=jdbc:mysql://nn-mysql:3306/niuniu_account?useSSL=false&serverTimezone=Asia/Shanghai&characterEncoding=utf8mb4" \
+                        -e "SPRING_DATASOURCE_URL=jdbc:mysql://nn-mysql:3306/niuniu_account?useSSL=false&serverTimezone=Asia/Shanghai&characterEncoding=UTF-8" \
                         -e SPRING_DATASOURCE_USERNAME=root \
                         -e SPRING_DATASOURCE_PASSWORD=${MYSQL_PASSWORD} \
                         -e TZ=Asia/Shanghai \
