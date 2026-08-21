@@ -18,7 +18,8 @@
         <file>${LOG_PATH}/niuniu-account_debug.log</file>
         <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
             <fileNamePattern>${LOG_PATH}/niuniu-account_debug.%d{yyyy-MM-dd}.log</fileNamePattern>
-            <maxHistory>30</maxHistory>
+            <!-- 保留3天（含今天）：maxHistory=2 为前2天的滚动文件 + 当天正在写的文件 -->
+            <maxHistory>2</maxHistory>
         </rollingPolicy>
         <filter class="ch.qos.logback.classic.filter.LevelFilter">
             <level>DEBUG</level>
@@ -36,7 +37,8 @@
         <file>${LOG_PATH}/niuniu-account_info.log</file>
         <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
             <fileNamePattern>${LOG_PATH}/niuniu-account_info.%d{yyyy-MM-dd}.log</fileNamePattern>
-            <maxHistory>30</maxHistory>
+            <!-- 保留3天（含今天）：maxHistory=2 为前2天的滚动文件 + 当天正在写的文件 -->
+            <maxHistory>2</maxHistory>
         </rollingPolicy>
         <filter class="ch.qos.logback.classic.filter.LevelFilter">
             <level>INFO</level>
@@ -54,7 +56,8 @@
         <file>${LOG_PATH}/niuniu-account_error.log</file>
         <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
             <fileNamePattern>${LOG_PATH}/niuniu-account_error.%d{yyyy-MM-dd}.log</fileNamePattern>
-            <maxHistory>30</maxHistory>
+            <!-- 保留3天（含今天）：maxHistory=2 为前2天的滚动文件 + 当天正在写的文件 -->
+            <maxHistory>2</maxHistory>
         </rollingPolicy>
         <filter class="ch.qos.logback.classic.filter.ThresholdFilter">
             <level>WARN</level>
