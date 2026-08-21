@@ -3,9 +3,12 @@ package com.vanish.service.wechat;
 import com.vanish.common.exception.BusinessException;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Value;
-import org.springframework.core.ParameterizedTypeReference;
+import org.springframework.http.MediaType;
+import org.springframework.http.converter.json.JacksonJsonHttpMessageConverter;
 import org.springframework.stereotype.Component;
 import org.springframework.web.client.RestClient;
+
+import java.util.List;
 
 /**
  * 微信 API 客户端：code2Session 换取 openid
@@ -25,8 +28,24 @@ public class WeChatApiClient {
     @Value("${wechat.secret}")
     private String secret;
 
+    /**
+     * 构造器：内部创建 RestClient（Spring Boot 4 已无 RestClient.Builder 自动配置，不能构造器注入）
+     */
     public WeChatApiClient() {
-        this.restClient = RestClient.create();
+        this(RestClient.builder());
+    }
+
+    /**
+     * 测试专用构造器：允许外部传入 builder 以绑定 MockRestServiceServer
+     */
+    WeChatApiClient(RestClient.Builder builder) {
+        // 微信 code2Session 返回的 Content-Type 是 text/plain（内容实为 JSON），
+        // 默认 JSON 转换器只认 application/json，这里注册一个两种类型都支持的转换器
+        JacksonJsonHttpMessageConverter jsonConverter = new JacksonJsonHttpMessageConverter();
+        jsonConverter.setSupportedMediaTypes(List.of(MediaType.APPLICATION_JSON, MediaType.TEXT_PLAIN));
+        this.restClient = builder
+                .messageConverters(converters -> converters.add(0, jsonConverter))
+                .build();
     }
 
     /**
