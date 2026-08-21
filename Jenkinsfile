@@ -33,7 +33,7 @@ pipeline {
                         --name ${CONTAINER_NAME} \
                         --network ${NETWORK} \
                         -p 9527:9527 \
-                        -v /data/java/niuniu-account:/app/logs \
+                        -v /data/java/niuniu-account/log:/app/logs \
                         -e LOG_PATH=/app/logs \
                         -e SPRING_PROFILES_ACTIVE=prod \
                         -e "SPRING_DATASOURCE_URL=jdbc:mysql://nn-mysql:3306/niuniu_account?useSSL=false&serverTimezone=Asia/Shanghai&characterEncoding=utf8mb4" \
